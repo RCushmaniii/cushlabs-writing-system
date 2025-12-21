@@ -3,6 +3,12 @@
 
   "positioning": "CushLabs.ai is a practical AI engineering studio that turns messy business knowledge and repetitive customer questions into secure, production-grade assistants that reduce support load and improve lead handling—without AI hype or fragile demos. Bilingual customer experiences (EN/ES) with English-first execution for implementation.",
 
+  "brand_voice": {
+    "perspective": "first-person singular",
+    "rationale": "Solo consultant positioning. Use 'I' and 'my' throughout. Never use 'we' or 'our' unless referring to a collaboration with the client.",
+    "enforcement": "All customer-facing copy must use first-person singular voice."
+  },
+  
   "delivery_model": "English-first project execution for speed and clarity. Bilingual (EN/ES) assistant outputs fully supported. Spanish-first clients can be supported via a bilingual partner add-on (PM or solutions consultant).",
 
   "offers": [

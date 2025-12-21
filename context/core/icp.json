@@ -70,5 +70,31 @@
     "We do not want another tool to manage",
     "We tried a chatbot and it failed",
     "We need something reliable, not flashy"
-  ]
+  ],
+  
+  "jargon_to_avoid": [
+  "retrieval tuning",
+  "knowledge ingestion",
+  "source-grounded",
+  "RAG",
+  "embeddings",
+  "vector database",
+  "prompt engineering",
+  "LLM",
+  "agentic",
+  "fine-tuning",
+  "inference"
+],
+
+"plain_language_alternatives": {
+  "retrieval tuning": "improving how the system finds answers",
+  "knowledge ingestion": "loading your documents and policies",
+  "source-grounded": "answers based on your approved content",
+  "RAG": "AI assistant that searches your knowledge base",
+  "guardrails": "validation to prevent wrong answers",
+  "human handoff": "routes to your team when uncertain"
+}
+
+
+  
 }

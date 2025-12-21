@@ -119,23 +119,28 @@ Return the page in Markdown with:
 
 Provide **one final** hero variant in this format:
 
-- H1 (max 10 words)
+- H1 (max 10 words — count before submitting; reject if over)
 - Subheadline (max 24 words)
 - 3 bullets (max 10 words each)
 - Primary CTA button text
 - Secondary CTA text
 - Micro-proof line (approved proof only)
 
-### 2) TRUST BAR (Optional but recommended)
+### 2) TRUST BAR + PROOF BLOCK (Required)
 
-1–2 lines or 3 bullets, **approved proof only**, examples:
+**Trust bar:** 1 line with approved credentials. Do not repeat credentials that appear in hero micro-proof.
 
-- “17 years Fortune 500 IT leadership”
-- “8 years profitable solopreneur”
-- “5-star Google Business Profile (coaching)”
-- “Published testimonials”
+Example:
 
-No invented case studies. No logos unless provided.
+> 17 years Fortune 500 IT (Kodak, Corning) · 8 years independent consulting · 5-star Google rating
+
+**Proof block (required):** Include at least ONE of the following directly below the hero:
+
+- Anonymized mini-case with outcome ("A Guadalajara logistics firm reduced after-hours lead loss by 40% in 30 days")
+- Before/After snapshot table
+- Client quote (anonymized if necessary)
+
+If no real proof exists yet, use a placeholder clearly marked **[REPLACE BEFORE LAUNCH]** and do not ship without it.
 
 ### 3) THE PROBLEM (ICP language)
 
@@ -191,15 +196,15 @@ Write 4–7 bullets:
 - enterprise IT discipline + solopreneur speed
 - “no AI theater” stance (tastefully)
 
-### 8) USE CASES (Pick 3–5)
+### 8) USE CASES (Pick exactly 3)
 
-Provide 3–5 short “cards” in text:
+Focus beats comprehensiveness. Select the 3 use cases most relevant to the primary audience:
 
 - Support Deflection Assistant
 - Lead Qualification Assistant
-- Internal Knowledge Copilot
-- Onboarding Enablement
-- Cross-border FAQ / Customer Enablement
+- Internal Knowledge Assistant
+
+Other use cases (Onboarding, Cross-border) are variants of these three and should not appear unless explicitly requested.
 
 Each card:
 
@@ -238,11 +243,13 @@ Include:
 
 ## Copy rules (CushLabs voice)
 
+- **First-person singular only.** Use "I" and "my" throughout. Never "we" or "our" unless referring to client collaboration.
 - Calm, sharp, confident.
 - No hype, no corporate filler.
-- Prefer “clear decisions” and “small v1” language.
-- Avoid jargon unless needed; define quickly.
+- Prefer "clear decisions" and "small v1" language.
+- Avoid jargon; if technical terms are necessary, define immediately in plain English.
 - Use tradeoffs language to build trust.
+- **Word repetition limit:** No distinctive word (e.g., "clarity," "production-grade") more than 3× per page. Find synonyms.
 
 ---
 
@@ -278,6 +285,34 @@ Include:
 - One primary CTA across the entire page.
 - Secondary CTA is optional and must not compete with primary.
 - CTA copy should be low-friction and outcome-led.
+- CTA framing must be internally consistent. If you say "no pitch," do not mention proposals or pricing in the same block.
+- Final CTA outcomes should be emotional (clarity, direction, confidence) not transactional (proposal, quote).
+
+---
+
+## Jargon rules (ICP is non-technical)
+
+### Never use without plain-English definition:
+
+- retrieval tuning
+- knowledge ingestion
+- source-grounded
+- RAG
+- embeddings
+- vector database
+- prompt engineering
+- LLM
+- guardrails (acceptable if immediately explained)
+
+### Safe alternatives:
+
+| Instead of          | Write                                  |
+| ------------------- | -------------------------------------- |
+| retrieval tuning    | improving how the system finds answers |
+| knowledge ingestion | loading your documents and policies    |
+| source-grounded     | answers based on your approved content |
+| guardrails          | validation to prevent wrong answers    |
+| human handoff       | routes to your team when uncertain     |
 
 ---
 
@@ -291,6 +326,9 @@ Include:
 - English-first delivery constraint included once, calmly?
 - One clear primary CTA repeated consistently?
 - Skimmable layout (short paragraphs, clear headings)?
+- Trust bar credentials not duplicated from hero micro-proof?
+- No word repeated more than 3× on the page?
+- "I" voice used consistently (no "we")?
 
 ---
 

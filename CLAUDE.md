@@ -29,7 +29,18 @@ This system is designed to prevent:
 
 ### Skills (`/skills/`)
 
-A **skill** is a folder containing `SKILL.md`—packaged expertise for a content type (structure, templates, checklists, QA).
+A **skill** is a folder containing a single, authoritative Markdown file
+named after the folder.
+
+**Naming convention:**
+
+/skills/<skill-name>/<skill-name>.md
+
+Example:
+/skills/landing-page/landing-page.md
+
+Skills package expertise for a specific content type
+(structure, strategy, constraints, QA rules).
 
 **Critical distinction:**
 
@@ -129,7 +140,7 @@ Determine whether the requested output maps to a known content type.
 
 If a matching skill exists in `/skills/`:
 
-- Load the corresponding `SKILL.md`
+- Load the corresponding `<skill-name>.md` file inside the skill folder
 - Follow its structure and rules exactly
 
 If no skill exists:
@@ -177,6 +188,32 @@ Knowledge lookup priority:
 2. `/knowledge/templates/` (reusable blocks)
 3. `/knowledge/drafts/` (only if the user asks)
 4. `/knowledge/notes/` (last resort; verify before reuse)
+
+Prefer files with descriptive filenames over generic placeholders.
+If multiple examples exist, select the most specific match by filename first.
+When in doubt, err on the side of including more context from relevant files.
+
+### Knowledge File Naming Rules
+
+Knowledge files represent concrete examples or reusable assets.
+They are not documentation files.
+
+Rules:
+
+- Do not use `README.md` inside `/knowledge/`
+- Each file must describe what the example or block demonstrates
+- Filenames should be semantic and searchable
+
+Convention:
+
+/knowledge/content/<content-type>/<descriptive-name>.md
+/knowledge/templates/<block-type>/<block-name>.md
+
+Examples:
+/knowledge/content/landing-page/cushlabs-homepage.md
+/knowledge/content/faq/pricing-objections.md
+/knowledge/templates/cta/clarity-call.md
+/knowledge/templates/proof/enterprise-experience.md
 
 #### Knowledge Trust Rules
 
@@ -229,6 +266,9 @@ Before returning output, verify:
 - Skill structure was followed (if applicable)
 - CTAs and offers are accurate
 - No invented metrics, guarantees, or testimonials appear
+- Brand voice (I vs We) is consistent throughout
+- No distinctive word repeated more than 3× on the page
+- Jargon terms (if any) are defined in plain English within 5 words
 
 Fix issues before sending the response.
 
@@ -277,6 +317,11 @@ If any answer is “no,” revise before responding.
 - Keep Skills opinionated and strict
 - Seed `/knowledge/content/` with real examples
 - Archive old profile versions with dates in `/archive/`
+- Avoid generic filenames (`README.md`, `example.md`, `final.md`) outside the repo root
+- Use descriptive, searchable filenames for all knowledge assets
+- Review and update knowledge files regularly to ensure relevance
+- Remove outdated or irrelevant knowledge files to keep the system clean
+- Keep the knowledge base organized and easy to navigate
 
 This system is designed to improve with use, not drift over time.
 
