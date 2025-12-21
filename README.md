@@ -125,6 +125,7 @@ Point your AI assistant to **`CLAUDE.md`**
 │   └── /notes/               # Raw ideas & research
 │
 └── /archive/                 # Versioned backups
+---
 
 
  ## 🧠 Core Profiles Explained
@@ -139,6 +140,7 @@ If output feels generic, inaccurate, or “AI-ish,” these are the first files 
 | `business-profile.json` | Offers, pricing logic, delivery | Prevents hallucinated claims |
 | `claims-policy.json` | What may / may not be claimed | Enforces credibility |
 
+''
 ---
 
 ## 🛠️ How Asset Generation Works
