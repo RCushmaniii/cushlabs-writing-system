@@ -125,23 +125,22 @@ Point your AI assistant to **`CLAUDE.md`**
 │   └── /notes/               # Raw ideas & research
 │
 └── /archive/                 # Versioned backups
----
 
+```
 
- ## 🧠 Core Profiles Explained
+## 🧠 Core Profiles Explained
 
 The system relies on a small set of **Source of Truth** files.
 If output feels generic, inaccurate, or “AI-ish,” these are the first files to check.
 
-| File | Purpose | Why It Matters |
-|------|--------|----------------|
-| `voice-dna.json` | Tone, cadence, banned language | Prevents “AI marketing voice” |
-| `icp.json` | Pains, goals, objections | Enables real resonance |
-| `business-profile.json` | Offers, pricing logic, delivery | Prevents hallucinated claims |
-| `claims-policy.json` | What may / may not be claimed | Enforces credibility |
+| File                    | Purpose                         | Why It Matters                |
+| ----------------------- | ------------------------------- | ----------------------------- |
+| `voice-dna.json`        | Tone, cadence, banned language  | Prevents “AI marketing voice” |
+| `icp.json`              | Pains, goals, objections        | Enables real resonance        |
+| `business-profile.json` | Offers, pricing logic, delivery | Prevents hallucinated claims  |
+| `claims-policy.json`    | What may / may not be claimed   | Enforces credibility          |
 
-''
----
+## ''
 
 ## 🛠️ How Asset Generation Works
 
@@ -191,6 +190,7 @@ The system will automatically use the Skill when triggered.
 ### `/knowledge/templates/`
 
 Reusable blocks:
+
 - CTAs
 - Proof
 - Bios
@@ -204,14 +204,17 @@ This is how the system **gets better over time instead of drifting**.
 ## 🔧 Maintenance & Troubleshooting
 
 ### The AI sounds generic
+
 - **Check:** `voice-dna.json`
 - **Fix:** Add better writing samples and re-run the creator
 
 ### The AI invents pricing or features
+
 - **Check:** `business-profile.json`
 - **Fix:** Update or re-run the profile
 
 ### The AI ignores Skill rules
+
 - **Check:** Does the trigger phrase match?
 - **Fix:** Make triggers explicit in `SKILL.md`
 
@@ -224,6 +227,7 @@ This is how the system **gets better over time instead of drifting**.
 - PowerShell-friendly
 
 Works with:
+
 - Claude Projects
 - Cursor
 - Windsurf
@@ -237,12 +241,14 @@ No vendor lock-in.
 ## 📜 Version History
 
 **v2.0**
+
 - Asset-first architecture
 - Explicit Skills + Knowledge layers
 - Windows-friendly structure
 - Claims-safe writing constraints
 
 **v1.0**
+
 - Initial context-based writing system
 
 ---
@@ -254,4 +260,7 @@ No vendor lock-in.
 > Systems beat inspiration.
 
 This kit is designed for people who want **repeatable clarity**, not AI theater.
+
+```
+
 ```
