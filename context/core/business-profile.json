@@ -1,49 +1,197 @@
 {
   "business_name": "CushLabs.ai",
-
-  "positioning": "CushLabs.ai is a practical AI engineering studio that turns messy business knowledge and repetitive customer questions into secure, production-grade assistants that reduce support load and improve lead handling—without AI hype or fragile demos. Bilingual customer experiences (EN/ES) with English-first execution for implementation.",
-
+  "tagline": "Production-grade AI assistants for businesses tired of chatbot theater.",
+  
+  "positioning": "I build AI assistants that actually work in production—handling real customer questions, reducing support load, and converting website visitors—without hallucination risks or performance disasters. No demos that break in production. No hype-driven tools that need constant babysitting. Just secure, measurable systems backed by 17 years of Fortune 500 IT discipline.",
+  
   "brand_voice": {
-    "perspective": "first-person singular",
-    "rationale": "Solo consultant positioning. Use 'I' and 'my' throughout. Never use 'we' or 'our' unless referring to a collaboration with the client.",
-    "enforcement": "All customer-facing copy must use first-person singular voice."
+    "perspective": "first-person singular ('I,' 'my,' 'me')",
+    "rationale": "Solo consultant positioning. Direct accountability. Use 'we' only when referring to collaboration with the client (e.g., 'we'll define success metrics together').",
+    "tone": "Confident, evidence-based, zero hype. Think senior enterprise architect who left to solve SMB problems.",
+    "enforcement": "All customer-facing copy uses first-person singular. Kill 'studio,' 'team,' 'our agency' language."
   },
   
-  "delivery_model": "English-first project execution for speed and clarity. Bilingual (EN/ES) assistant outputs fully supported. Spanish-first clients can be supported via a bilingual partner add-on (PM or solutions consultant).",
+  "ideal_client_profile": {
+    "company_stage": "Established SMBs and growth-stage companies (50–500 employees) with proven product-market fit",
+    "pain_points": [
+      "Support team drowning in repetitive Tier 1 questions",
+      "Website visitors leaving without engaging (high bounce, low conversion)",
+      "Internal teams searching Slack/email for tribal knowledge instead of documented answers",
+      "Past AI experiments failed due to hallucinations or abandoned proof-of-concepts"
+    ],
+    "budget_signals": "Willing to invest $5K–$25K in a system that demonstrably reduces costs or improves conversion",
+    "decision_maker": "COO, VP Customer Success, VP Sales, or technical founder with P&L accountability"
+  },
+  
+  "delivery_model": {
+    "execution": "English-first project management for speed and precision. All strategy, documentation, and technical communication in English.",
+    "bilingual_outputs": "AI assistants deliver fluent English/Spanish responses. I validate both languages in production.",
+    "spanish_first_clients": "If your team prefers Spanish-first collaboration, I bring in a bilingual PM/solutions partner (disclosed upfront, priced separately).",
+    "why_this_works": "You get Fortune 500-caliber execution without translation delays. Your customers get native-quality experiences in both languages."
+  },
 
   "offers": [
-    "Clarity Sprint (5–10 days): Convert an ambiguous AI idea into a buildable plan. Deliverables include prioritized use cases, success metrics, knowledge and data audit, v1 scope, architecture outline, and an implementation roadmap.",
-    "RAG Assistant Build + Launch (3–6 weeks): Design and deploy a production-grade AI assistant with knowledge ingestion, retrieval tuning, guardrails, analytics, and human handoff flows. Bilingual outputs supported when needed.",
-    "Website Lead-Conversion Assistant (2–4 weeks): A sales-focused assistant that addresses common objections, qualifies visitors, captures contact information, and routes prospects to the appropriate CTA. Designed with performance and SEO considerations.",
-    "Internal Knowledge Search Copilot (3–6 weeks): A private internal assistant for teams to search policies, SOPs, product documentation, and onboarding materials. Includes role-based access, auditability, and source-referenced outputs.",
-    "Optimization and AI Ops Retainer (monthly): Ongoing evaluation, knowledge refresh, retrieval improvements, workflow enhancements, monitoring, and reporting aligned to agreed KPIs such as deflection rate, conversion signals, and response time."
+    {
+      "name": "Clarity Sprint",
+      "duration": "3–5 business days",
+      "investment": "$500 (applied to implementation if you proceed)",
+      "outcome": "Walk away with a buildable plan—or a clear 'no-go' decision—before spending serious money.",
+      "deliverables": [
+        "Prioritized use cases with success metrics (deflection rate, conversion lift, time saved)",
+        "Knowledge audit (what you have, what's missing, what's messy)",
+        "V1 scope with clear exclusions (no scope creep)",
+        "Architecture outline (data flows, guardrails, integrations)",
+        "Fixed-price implementation proposal OR honest assessment if AI isn't the right move"
+      ],
+      "ideal_for": "Teams with an AI idea but no clarity on ROI, scope, or technical feasibility"
+    },
+    {
+      "name": "RAG Assistant Build + Launch",
+      "duration": "4–8 weeks (depends on knowledge complexity)",
+      "outcome": "Production-ready assistant that answers customer questions using your documentation, policies, and FAQs—with source citations and graceful failure when uncertain.",
+      "includes": [
+        "Knowledge ingestion pipeline (PDFs, docs, help center, Notion, etc.)",
+        "Retrieval tuning and evaluation against ground truth",
+        "Guardrails (confidence thresholds, source grounding, human handoff)",
+        "Analytics dashboard (query trends, deflection rate, unanswered questions)",
+        "Bilingual support (EN/ES) if needed",
+        "Post-launch iteration cycle (2 weeks of refinement)"
+      ],
+      "typical_pricing": "$8K–$18K (fixed scope after Clarity Sprint)",
+      "ideal_for": "Support-heavy businesses losing 15+ hours/week to repetitive customer questions"
+    },
+    {
+      "name": "Website Lead-Conversion Assistant",
+      "duration": "3–6 weeks",
+      "outcome": "Sales-focused assistant that addresses objections, qualifies visitors, and routes high-intent prospects to sales—without slowing down your site or hurting SEO.",
+      "includes": [
+        "Objection-handling scripts (pricing, features, use cases)",
+        "Lead qualification logic (job title, company size, intent signals)",
+        "Contact capture with CRM integration (HubSpot, Salesforce, etc.)",
+        "Performance-first deployment (async loading, <100ms response target)",
+        "SEO validation (no content cloaking, structured data compliance)",
+        "A/B testing framework to measure conversion lift"
+      ],
+      "typical_pricing": "$6K–$15K (fixed scope after Clarity Sprint)",
+      "ideal_for": "B2B companies with high-value deals where 1–2 extra conversions/month justifies investment"
+    },
+    {
+      "name": "Internal Knowledge Search Copilot",
+      "duration": "4–8 weeks",
+      "outcome": "Private assistant for your team to search policies, SOPs, product docs, and onboarding materials—ending the 'Slack archaeology' problem.",
+      "includes": [
+        "Secure ingestion of internal docs (Google Drive, Confluence, SharePoint, Notion)",
+        "Role-based access controls (RBAC) and audit logging",
+        "Source-referenced answers (no black-box outputs)",
+        "Slack/Teams integration for in-workflow access",
+        "Usage analytics (what's searched, what's missing, where knowledge gaps exist)"
+      ],
+      "typical_pricing": "$10K–$22K (fixed scope after Clarity Sprint)",
+      "ideal_for": "Growing teams onboarding new hires or compliance-heavy industries needing auditable knowledge access"
+    },
+    {
+      "name": "AI Ops Retainer (Optimization + Monitoring)",
+      "duration": "Monthly ongoing",
+      "outcome": "Your assistant stays effective as your business evolves—continuous improvement tied to KPIs like deflection rate, conversion signals, and response quality.",
+      "includes": [
+        "Monthly knowledge refresh (new docs, policy updates, FAQ additions)",
+        "Retrieval optimization (improve answer quality based on user feedback)",
+        "Workflow enhancements (new integrations, escalation rules)",
+        "Performance monitoring and alerting",
+        "Monthly reporting with actionable insights"
+      ],
+      "typical_pricing": "$1,500–$4,000/month (depends on complexity and SLA)",
+      "ideal_for": "Businesses that view AI assistants as infrastructure, not one-time projects"
+    }
   ],
 
-  "proof": [
-    "17 years of Fortune 500 IT leadership experience as an IT Manager, with responsibility for systems, stakeholders, and operational accountability.",
-    "5 years of U.S.-based IT consulting, including on-site work with enterprise customers such as Kodak and Corning.",
-    "8 years as a profitable solopreneur, demonstrating sustained independent business performance over time.",
-    "Premium pricing track record, growing hourly rates from MXN 150 to MXN 500 over eight years.",
-    "5-star Google Business Profile rating for a professional coaching business.",
-    "Multiple customer testimonials published on owned websites.",
-    "Established professional network with 500+ LinkedIn connections and endorsements."
+  "why_robert": {
+    "headline": "Fortune 500 discipline without the enterprise bureaucracy.",
+    "narrative": "I spent 17 years managing IT systems and teams for Fortune 500 companies—where one bug could cost millions and every deployment needed governance approval. Then I walked away to solve the same problems for SMBs who can't afford $500K consulting engagements. You get enterprise-grade security, testing, and architecture—but with solopreneur speed and direct accountability. No account managers. No offshore handoffs. Just me, owning outcomes from strategy through production.",
+    "proof_points": [
+      {
+        "claim": "17 years Fortune 500 IT leadership",
+        "credibility": "Managed enterprise systems, stakeholder relationships, and operational accountability at scale"
+      },
+      {
+        "claim": "5 years US-based consulting (Kodak, Corning)",
+        "credibility": "On-site enterprise engagements with complex technical and political environments"
+      },
+      {
+        "claim": "8 years profitable solopreneur",
+        "credibility": "Uninterrupted revenue generation—no funding, no runway, just sustainable business"
+      },
+      {
+        "claim": "Premium pricing track record (MXN 150 → MXN 500/hr)",
+        "credibility": "Consistently moved upmarket by delivering disproportionate value"
+      },
+      {
+        "claim": "5-star Google Business Profile (coaching)",
+        "credibility": "100% client satisfaction score across published reviews"
+      },
+      {
+        "claim": "500+ LinkedIn connections with endorsements",
+        "credibility": "Established professional network across enterprise and startup ecosystems"
+      }
+    ]
+  },
+
+  "how_im_different": [
+    {
+      "claim": "Clarity before tools",
+      "proof": "I won't recommend GPT-4 vs. Claude until I understand your decision, success metrics, and failure modes. Most vendors start with the tech and retrofit a use case."
+    },
+    {
+      "claim": "Production-grade by default",
+      "proof": "Every build includes: source-grounded retrieval (no hallucination lottery), confidence thresholds (graceful failure), audit logs, role-based access, and monitoring. Not optional add-ons—table stakes."
+    },
+    {
+      "claim": "Outcome-oriented systems, not demos",
+      "proof": "I tie deployments to measurable KPIs (deflection rate, conversion lift, time saved) and include iteration loops. If it doesn't move a business metric, I don't build it."
+    },
+    {
+      "claim": "Performance and UX respect",
+      "proof": "I validate Core Web Vitals before/after deployment. If an assistant slows your site, I move it to a dedicated page or optimize the embed. Your SEO and page speed aren't negotiable."
+    },
+    {
+      "claim": "Bilingual execution with LATAM insight",
+      "proof": "Based in Guadalajara. I understand cross-border workflows (Mexico → US/Canada), cultural nuances in Spanish localization, and time zone advantages for North American clients."
+    },
+    {
+      "claim": "No AI hype or fragile prompts",
+      "proof": "I explicitly refuse: chatbots that hallucinate without consequence, 'just throw it all in the prompt' architectures, and vendors who promise AGI is 6 months away. You get honest assessments of what AI can and can't do."
+    }
   ],
 
-  "differentiators": [
-    "Clarity-first methodology: define the decision, use case, success metrics, and scope before selecting tools or building systems.",
-    "Production-grade engineering discipline: secure-by-default architecture, validation, logging, testing, and maintainable code.",
-    "Outcome-oriented systems rather than one-off demos, with analytics and iteration loops tied to business signals.",
-    "Respect for performance and user experience, especially on marketing sites, using light-footprint deployment patterns.",
-    "Cross-border readiness for Mexico and LATAM teams serving U.S. and Canadian customers, with bilingual assistant outputs.",
-    "Enterprise IT governance mindset combined with solopreneur speed and direct accountability.",
-    "Explicit refusal of hype-driven AI, fragile prompt setups, and hallucination-prone knowledge systems."
+  "not_a_fit_if": [
+    "You want a $50/month chatbot widget with no strategy or quality control.",
+    "You expect guaranteed ROI or fully autonomous AI with no human oversight.",
+    "You can't provide any English-speaking point of contact for project coordination.",
+    "You're looking for the cheapest vendor rather than the right partner.",
+    "You need AI to replace your entire support team (not realistic; AI augments, doesn't replace)."
   ],
 
-  "non_ideal_fit": [
-    "Teams looking for a cheap chatbot widget with no strategy or governance.",
-    "Organizations expecting guaranteed ROI or fully autonomous AI with no human oversight.",
-    "Projects that cannot provide any English-speaking point of contact for coordination."
-  ],
+  "pricing_philosophy": {
+    "model": "Fixed-scope projects with transparent pricing after the Clarity Sprint.",
+    "typical_ranges": {
+      "clarity_sprint": "$500 (credited toward implementation)",
+      "assistant_builds": "$6K–$22K (depends on complexity, integrations, and knowledge volume)",
+      "monthly_retainers": "$1,500–$4,000/month (ongoing optimization and monitoring)"
+    },
+    "no_hourly_billing": "I price on outcomes and scope, not hours. You get predictable costs and I'm incentivized to be efficient.",
+    "payment_terms": "50% upfront to start, 50% on delivery. Monthly retainers billed in advance."
+  },
 
-  "cta": "Book a free 20-minute Clarity Call to diagnose your situation and determine next steps. No commitment."
+  "cta": {
+    "primary": "Book a free 20-minute Clarity Call",
+    "promise": "We'll diagnose your situation, identify if AI is the right move, and outline next steps. No pitch deck. No commitment.",
+    "booking_url": "[Your Calendly/booking link]"
+  },
+
+  "competitive_positioning": {
+    "vs_chatbot_vendors": "I build for production, not demos. They optimize for fast sales cycles; I optimize for systems that still work in 6 months.",
+    "vs_agencies": "No account managers or offshore teams. You work directly with me—17 years of Fortune 500 IT experience, not a junior dev following a playbook.",
+    "vs_freelancers": "I bring enterprise governance discipline (security, testing, documentation) that most freelancers skip. Your assistant won't be a liability in an audit.",
+    "vs_enterprise_consultancies": "You get the same rigor as a $500K Deloitte engagement at SMB-friendly pricing with 10x faster delivery."
+  }
 }

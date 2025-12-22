@@ -1,100 +1,253 @@
 {
-  "primary_audience": "Mexico and LATAM SMB founders and operations leaders who are overwhelmed by repeat customer questions and scattered internal knowledge, and need a practical, bilingual AI assistant that reduces support load and captures more qualified leads.",
+  "primary_audience": "SMB founders and operations leaders operating in bilingual English/Spanish business environments—whether serving cross-border customers, managing multilingual teams, or expanding into new markets—who need practical AI assistants that reduce support load, capture qualified leads, and work seamlessly in both languages.",
+  
+  "geographic_segments": {
+    "segment_1_latam_to_north_america": {
+      "who": "Mexico, Central America, and South American companies serving U.S. or Canadian customers, vendors, or partners",
+      "examples": [
+        "Mexican manufacturers exporting to the U.S.",
+        "LATAM SaaS companies with North American customer base",
+        "Logistics and freight companies operating cross-border",
+        "BPO/outsourcing firms supporting U.S. clients",
+        "E-commerce sellers shipping to North America"
+      ],
+      "why_you": "You understand LATAM business culture, time zones align with North America, and you deliver bilingual systems that serve both markets without friction."
+    },
+    "segment_2_us_to_latam": {
+      "who": "U.S. and Canadian companies selling to, operating in, or employing teams from Spanish-speaking markets",
+      "examples": [
+        "U.S. e-commerce brands targeting Hispanic consumers (65M+ Spanish speakers in the U.S.)",
+        "SaaS companies expanding to Mexico and LATAM",
+        "Border-state businesses (Texas, Arizona, California, New Mexico) with bilingual customer bases",
+        "U.S. companies with outsourced operations in Mexico, Colombia, or Central America",
+        "Logistics and supply chain companies managing cross-border shipments"
+      ],
+      "why_you": "You bridge the cultural and operational gap between markets. Most U.S. consultants can't deliver native-quality Spanish; most LATAM vendors struggle with U.S. business norms. You do both."
+    },
+    "segment_3_bilingual_by_necessity": {
+      "who": "Any company with employees, customers, or partners in both English and Spanish—regardless of headquarters location",
+      "examples": [
+        "Hospitality and tourism companies serving international guests",
+        "Healthcare providers in Hispanic-majority regions",
+        "Construction and industrial distributors with multilingual workforces",
+        "Professional services (legal, accounting, HR) serving immigrant communities",
+        "Franchise brands operating in bilingual markets"
+      ],
+      "why_you": "You eliminate the 'build two systems' problem. One AI assistant, two languages, seamless experience."
+    }
+  },
 
-  "who_they_are": [
-    "Small-to-mid-sized businesses (approximately 10–200 employees, typically USD 1M–50M in annual revenue) with growing customer volume but immature or informal knowledge operations.",
-    "Service-heavy and information-heavy businesses such as B2B services, logistics, industrial distributors, SaaS and IT services, e-commerce operations, and professional services.",
-    "Founder, General Manager, or Operations / Customer Support leader responsible for both revenue outcomes and operational efficiency (support costs, pipeline health, onboarding, internal enablement).",
-    "Mexico-first or broader LATAM companies, often serving U.S. customers or operating cross-border. Bilingual context matters, especially for teams interacting with international clients, vendors, or partners.",
-    "Not AI-native, but generally comfortable with tools like CRM systems, helpdesks, Google Workspace, Microsoft Teams, or similar. Teams are lean, with limited engineering bandwidth (often 0–5 developers) and high operational load concentrated on a few people."
+  "company_profile": {
+    "size": "10–200 employees, typically USD $1M–$50M in annual revenue",
+    "stage": "Established SMBs with product-market fit, growing customer volume, and operational scaling challenges",
+    "industries": [
+      "B2B services and professional services",
+      "E-commerce and retail (online or hybrid)",
+      "Logistics, freight, and supply chain",
+      "SaaS, IT services, and technology",
+      "Industrial distribution and manufacturing",
+      "Healthcare, legal, and compliance-heavy services",
+      "Hospitality, tourism, and customer-facing industries"
+    ],
+    "maturity": "Not AI-native, but comfortable with standard business tools (CRM, helpdesk, Google Workspace, Microsoft Teams). Lean tech teams (0–5 developers) with high operational load on a few key people."
+  },
+
+  "decision_maker": {
+    "titles": [
+      "Founder or Co-Founder",
+      "General Manager or COO",
+      "VP/Director of Operations",
+      "VP/Director of Customer Success or Support",
+      "VP/Director of Sales or Revenue Operations"
+    ],
+    "psychographic": "Accountable for both revenue outcomes AND operational efficiency. Feels the pain of support costs, pipeline leakage, and knowledge chaos personally. Often wears multiple hats. Pragmatic, budget-conscious, skeptical of hype."
+  },
+
+  "language_and_delivery_model": {
+    "default": "English-first project execution",
+    "rationale": "Fastest, clearest communication for strategy, technical decisions, and milestone coordination. You get Fortune 500-caliber project management in business English.",
+    
+    "spanish_first_option": {
+      "available": true,
+      "delivery": "Spanish-first coordination via bilingual partner (project manager or solutions consultant)",
+      "transparent_pricing": "Bilingual partner add-on disclosed upfront and priced separately in proposal",
+      "typical_add_on": "$1,500–$2,500 depending on project complexity",
+      "when_needed": "For Spanish-only teams or clients who prefer all meetings, documentation, and coordination in Spanish"
+    },
+    
+    "assistant_outputs": {
+      "always_bilingual": true,
+      "quality": "Native-level English and Spanish responses, validated in both languages",
+      "note": "This is the product your customers interact with—fully bilingual regardless of which language we use for project management"
+    },
+    
+    "positioning": "The value you're buying is a bilingual AI assistant for your customers. Project coordination language is flexible—we optimize for whatever gets you the best result fastest."
+  },
+
+  "ideal_customer_signals": [
+    "Has a clear support or lead-capture problem that costs them money or reputation",
+    "Willing to invest $5K–$25K to solve a problem that's costing them $20K–$100K+/year in hidden costs",
+    "Operates in at least one bilingual context (customers, employees, partners, or markets)",
+    "Has someone with decision authority who can commit to a scoping conversation",
+    "Understands that AI is a tool, not magic—realistic expectations about what it can and can't do"
   ],
 
-  "ideal_customer_qualifiers": [
-    "Has at least one English-speaking stakeholder (Ops, Sales, or IT lead) who can coordinate the project, or agrees to a bilingual partner add-on for Spanish-first project management.",
-    "Willing to run project delivery in English for speed and clarity, with the understanding that assistant outputs can be fully bilingual (EN/ES).",
-    "Strong bonus fit if the business serves U.S. or Canadian customers, vendors, or partners and already operates in a partially bilingual environment."
-  ],
+  "ideal_customer_language_fit": {
+    "best_fit": [
+      "Bilingual teams with at least one English-speaking stakeholder (CEO, Ops, IT, Sales)",
+      "Spanish-first teams willing to use a bilingual partner for project coordination",
+      "English-speaking teams serving Spanish-speaking customers"
+    ],
+    "still_works": "Spanish-only teams—we bring in a bilingual partner for seamless coordination",
+    "not_a_fit": "Teams unwilling to use EITHER English-first coordination OR a bilingual partner for Spanish-first project management"
+  },
 
   "not_a_fit": [
-    "Spanish-only teams with no English-speaking champion and no willingness to use a bilingual partner add-on.",
-    "Organizations that require Spanish-only project delivery across meetings, documentation, and implementation coordination.",
-    "Businesses with no cross-border exposure and no practical need for English or bilingual customer communication."
+    "Businesses looking for $50/month chatbot widgets with no strategy or quality standards",
+    "Teams expecting guaranteed ROI or fully autonomous AI with zero human oversight",
+    "Organizations unable or unwilling to invest in a scoping process (Clarity Sprint) before committing to implementation",
+    "Companies with unrealistic timelines (expecting production systems in 1–2 weeks)",
+    "Clients unwilling to use EITHER English-first coordination OR a bilingual partner for Spanish-first project management",
+    "Clients who view consultants as vendors to squeeze on price rather than partners to collaborate with"
   ],
 
-  "pains": [
-    "Support is consuming the business. The same questions repeat daily (pricing, order status, policies, how-to guidance), responses are slow or inconsistent, and customers become frustrated.",
-    "Knowledge is scattered and tribal. Answers live in WhatsApp threads, Google Docs, PDFs, inboxes, or with one person on the team. Onboarding new hires is slow and painful.",
-    "Leads leak after hours. Prospects visit the website, ask questions, then disappear because no one responds fast enough, especially nights and weekends.",
-    "Small team with no bandwidth. They cannot spare engineers or operations staff to own a large or complex AI project; they need something that works without becoming another full-time job.",
-    "Burned by past tools. They fear paying for a bot that sounds unintelligent, hallucinates answers, or creates more support tickets than it resolves.",
-    "Lack of visibility into what is broken. They cannot clearly see which questions repeat, where customers get stuck, or what content is missing, so problems persist.",
-    "Cost pressure and reputation risk. Every missed message risks revenue, and every wrong answer risks trust, churn, or public complaints."
-  ],
+  "core_pains": {
+    "support_overwhelm": [
+      "The same questions repeat daily (pricing, order status, policies, how-to guidance)",
+      "Support responses are slow, inconsistent, or depend on one overloaded person",
+      "Customer frustration leads to churn, negative reviews, or escalations",
+      "Bilingual customers get inconsistent experiences depending on who answers"
+    ],
+    "scattered_knowledge": [
+      "Critical information lives in WhatsApp threads, email inboxes, PDFs, Google Docs, or one person's head",
+      "Onboarding new employees takes weeks because knowledge isn't documented",
+      "Answers vary by person, creating brand inconsistency and customer confusion"
+    ],
+    "lead_leakage": [
+      "Website visitors ask questions outside business hours and disappear before anyone responds",
+      "Prospects bounce because they can't get fast answers to simple objections (pricing, shipping, compatibility)",
+      "No way to capture and qualify leads when the sales team is offline"
+    ],
+    "small_team_constraints": [
+      "No engineering bandwidth to build or maintain AI systems in-house",
+      "Operations staff already stretched thin—can't take on another project",
+      "Every new tool becomes 'one more thing to manage'"
+    ],
+    "past_tool_failures": [
+      "Tried chatbots that sounded robotic, gave wrong answers, or created MORE support tickets",
+      "Invested in tools that promised automation but required constant manual intervention",
+      "Vendors disappeared after launch—no iteration, no support"
+    ],
+    "visibility_gaps": [
+      "Can't see which questions repeat, where customers get stuck, or what content is missing",
+      "No data to justify hiring more support staff or improving documentation",
+      "Decisions made on gut feel instead of evidence"
+    ],
+    "cross_border_complexity": [
+      "Serving customers in multiple countries with different languages, time zones, and expectations",
+      "Employees in one location, customers in another—asynchronous communication breaks down",
+      "Cultural nuances in language (Mexican Spanish ≠ Colombian Spanish ≠ U.S. business English)"
+    ]
+  },
 
   "desired_outcomes": [
-    "Fewer repetitive support tickets and faster responses, with instant answers for common questions and clean handoff to humans when needed.",
-    "More booked calls and better-qualified leads, especially from after-hours website visitors.",
-    "A single source of truth for business knowledge, so answers are consistent across people and channels.",
-    "Shorter onboarding time and reduced dependency on key individuals who currently hold critical knowledge.",
-    "Clear visibility into customer questions and friction points through analytics that drive operational and content improvements.",
-    "Higher customer satisfaction and trust through consistent, accurate, and professional bilingual support.",
-    "Peace of mind knowing the system will not hallucinate, harm website performance, or require constant babysitting."
+    "Instant answers to common questions in both English and Spanish, with clean handoff to humans when needed",
+    "More booked calls and better-qualified leads, especially from after-hours website visitors",
+    "A single source of truth for business knowledge—consistent answers across people, languages, and channels",
+    "Faster onboarding and reduced dependency on key individuals who currently hold critical knowledge",
+    "Clear visibility into customer questions, friction points, and content gaps through analytics",
+    "Higher customer satisfaction and trust through consistent, accurate, professional bilingual support",
+    "Peace of mind that the system won't hallucinate, harm website performance, or require constant babysitting",
+    "Ability to scale operations without proportionally scaling headcount"
   ],
 
-  "objections": [
-    "This sounds expensive or not in the budget right now. They worry it is priced for enterprise, not SMBs.",
-    "We do not have time or people to implement this. They fear a long project with heavy meeting load or engineering requirements.",
-    "What if it gives wrong answers and hurts our reputation? Concerns about hallucinations, inconsistent responses, or tone issues.",
-    "Our data is sensitive. How do we know it is secure? Worries about privacy, access control, and data leaks.",
-    "We tried a chatbot before and it was useless. Past experiences with scripted bots, poor adoption, or vendors who disappeared after launch.",
-    "Will this slow down our website or break our funnel? Performance and SEO concerns, especially with embedded widgets.",
-    "Can we not just use ChatGPT, Intercom, Zendesk, or a cheaper freelancer? They assume generic tools are good enough or that DIY is simpler.",
-    "We do not have anyone who can run this in English. Concern about language barriers in project coordination."
-  ],
+  "objections_and_rebuttals": {
+    "price": {
+      "objection": "This sounds expensive. We don't have $10K–$20K in the budget.",
+      "rebuttal": "I hear you. Let's do the math: If you're handling 100 repetitive support tickets per week at $25/ticket in labor cost, that's $130K/year you're spending. If this system deflects even 50 tickets/week, it saves you $65K/year. A $12K investment pays for itself in ~10 weeks. After that, it's pure savings every year. Does that change how you're thinking about the cost?"
+    },
+    "bandwidth": {
+      "objection": "We don't have time or people to manage a big AI project.",
+      "rebuttal": "That's exactly why I built the Clarity Sprint model. You invest 3–5 hours of your time over one week, I deliver a complete plan. If you move forward, the project is fixed-scope—you're not managing developers or writing requirements. I own delivery. You review milestones. That's it."
+    },
+    "hallucination_risk": {
+      "objection": "What if it gives wrong answers and damages our reputation?",
+      "rebuttal": "Valid concern. Here's how I prevent that: (1) Every answer is grounded in YOUR approved content—no making things up. (2) Confidence thresholds—if the system isn't sure, it hands off to your team instead of guessing. (3) Source citations—customers see WHERE the answer came from. (4) Two weeks of post-launch tuning to catch edge cases. You're not launching a black box."
+    },
+    "data_security": {
+      "objection": "Our data is sensitive. How do we know it's secure?",
+      "rebuttal": "Great question. Here's the approach: (1) Role-based access—only authorized users see sensitive content. (2) Audit logs—you can see who accessed what and when. (3) Data minimization—we only load what the assistant needs to function. (4) Clear retention policies—your data, your rules. (5) Documented data flows before launch—no surprises. I bring Fortune 500 governance mindset to every project."
+    },
+    "past_failures": {
+      "objection": "We tried a chatbot before and it was useless.",
+      "rebuttal": "I hear that a lot. Most chatbots fail because they're built backwards—vendor picks a tool, then forces your use case into it. I do the opposite: define your problem, success metrics, and failure modes FIRST, then design a system that works. That's the Clarity Sprint. We figure out if AI even makes sense before you spend serious money. If your last vendor didn't do that, no wonder it failed."
+    },
+    "performance_seo": {
+      "objection": "Will this slow down our website or hurt our SEO?",
+      "rebuttal": "No. I validate Core Web Vitals before and after deployment. If the embed impacts performance, we move the assistant to a dedicated page or optimize the loading pattern. Your page speed and SEO are non-negotiable. I've seen too many vendors ship 'working' systems that tank a client's Google rankings. Not happening here."
+    },
+    "diy_alternative": {
+      "objection": "Can't we just use ChatGPT, Intercom, or hire a cheaper freelancer?",
+      "rebuttal": "You absolutely can—but here's the reality: (1) ChatGPT doesn't know your business—it hallucinates. (2) Intercom's AI is generic and expensive per-seat. (3) Freelancers ship code, not systems—who handles testing, guardrails, iteration? If you have internal bandwidth to manage all that, DIY might work. If not, you'll spend more fixing it than hiring me upfront. Want me to map out both paths in the Clarity Sprint?"
+    },
+    "language_coordination": {
+      "objection": "We don't have anyone who speaks English well enough to coordinate this.",
+      "rebuttal": "No problem—I work with a bilingual partner who handles all project coordination in Spanish. Strategy calls, documentation, milestone reviews—all in your language. The AI assistant outputs are bilingual either way. You're not forced to work in English. There's a transparent add-on cost for the bilingual partner, and I'll show you both options in the proposal."
+    }
+  },
 
   "buying_triggers": [
-    "Support backlog reaches a breaking point, with response times spiking or customer complaints increasing.",
-    "A sudden growth surge from a product launch, marketing campaign, or expansion overwhelms the existing team.",
-    "They lose or nearly lose a significant deal because questions were not answered quickly enough.",
-    "Key person dependency becomes risky when the one person who knows everything leaves, takes vacation, or gets overloaded.",
-    "Leadership mandates automation and efficiency, with pressure to scale operations without adding headcount.",
-    "Expansion into new markets or channels introduces English-speaking or cross-border customers who expect fast, consistent responses.",
-    "A new budget window opens at the start of a quarter or after leadership realizes support inefficiencies are costing revenue."
+    "Support backlog reaches breaking point—response times spike, customer complaints increase, team burnout visible",
+    "Sudden growth surge (product launch, marketing campaign, market expansion) overwhelms existing operations",
+    "Lost or nearly lost a major deal because questions weren't answered fast enough",
+    "Key person dependency becomes risky—the 'only person who knows everything' leaves, goes on vacation, or burns out",
+    "Leadership mandate to scale operations without adding headcount",
+    "Expansion into new markets or channels (U.S. → LATAM or LATAM → U.S.) creates bilingual support needs",
+    "New budget window opens (start of quarter, fiscal year, or after leadership realizes inefficiency costs)",
+    "Competitive pressure—competitors launch better customer experiences and they're falling behind"
   ],
 
-  "language_they_use": [
-    "Support is killing us",
-    "We answer the same questions all day",
-    "Everything lives in WhatsApp",
-    "We cannot scale like this",
-    "We do not want another tool to manage",
-    "We tried a chatbot and it failed",
-    "We need something reliable, not flashy"
+  "language_they_actually_use": [
+    "Support is killing us / El soporte nos está matando",
+    "We answer the same questions all day / Contestamos las mismas preguntas todo el día",
+    "Everything is in WhatsApp / Todo está en WhatsApp",
+    "We can't scale like this / No podemos crecer así",
+    "We don't want another tool to babysit / No queremos otra herramienta que cuidar",
+    "We tried a chatbot and it failed / Probamos un chatbot y falló",
+    "We need something that actually works / Necesitamos algo que realmente funcione",
+    "Our team is drowning / El equipo está saturado",
+    "We're leaving money on the table / Estamos dejando dinero sobre la mesa"
   ],
-  
+
   "jargon_to_avoid": [
-  "retrieval tuning",
-  "knowledge ingestion",
-  "source-grounded",
-  "RAG",
-  "embeddings",
-  "vector database",
-  "prompt engineering",
-  "LLM",
-  "agentic",
-  "fine-tuning",
-  "inference"
-],
+    "RAG",
+    "embeddings",
+    "vector database",
+    "LLM",
+    "fine-tuning",
+    "inference",
+    "agentic workflows",
+    "semantic search",
+    "transformer models"
+  ],
 
-"plain_language_alternatives": {
-  "retrieval tuning": "improving how the system finds answers",
-  "knowledge ingestion": "loading your documents and policies",
-  "source-grounded": "answers based on your approved content",
-  "RAG": "AI assistant that searches your knowledge base",
-  "guardrails": "validation to prevent wrong answers",
-  "human handoff": "routes to your team when uncertain"
-}
+  "plain_language_alternatives": {
+    "RAG": "AI assistant that searches your knowledge base",
+    "embeddings": "how we organize your content for fast searching",
+    "vector database": "searchable library of your documents",
+    "LLM": "AI model or the AI engine",
+    "guardrails": "validation rules to prevent wrong answers",
+    "human handoff": "transfers to your team when it's not sure",
+    "retrieval tuning": "improving how it finds the right answers",
+    "knowledge ingestion": "loading your documents and policies",
+    "source-grounded": "answers based only on your approved content"
+  },
 
-
-  
+  "market_size_opportunity": {
+    "latam_smbs": "600K+ SMBs in Mexico alone; millions across LATAM",
+    "us_hispanic_market": "65M+ Hispanic population in U.S. (growing 2x faster than general population), $2.8T+ purchasing power",
+    "border_states": "Texas, California, Arizona, New Mexico = 35M+ population, massive bilingual commerce",
+    "cross_border_trade": "$700B+ annual trade between US-Mexico; $1.4T+ US-LATAM total",
+    "your_wedge": "Most US consultants can't deliver native Spanish. Most LATAM vendors struggle with US business culture. You do both. That's the arbitrage."
+  }
 }

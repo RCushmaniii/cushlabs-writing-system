@@ -93,38 +93,135 @@ Point your AI assistant to **`CLAUDE.md`**
 ## 🧠 System Architecture
 
 ```text
-/
-├── CLAUDE.md                 # AI operating rules + workflow
-├── README.md                 # This file
-├── STRUCTURE.md              # Authoritative folder map
-│
-├── /context/
-│   └── /core/                # Source of Truth (Read-Only)
-│       ├── voice-dna.json
-│       ├── icp.json
-│       ├── business-profile.json
-│       └── claims-policy.json (optional)
-│
-├── /prompts/                 # Profile builders (“installers”)
-│
-├── /skills/                  # Asset generators (how to write)
-│   ├── landing-page/
-│   ├── website-hero/
-│   ├── blog-post/
-│   ├── linkedin-post/
-│   ├── linkedin-profile/
-│   ├── cold-email/
-│   ├── sales-deck/
-│   ├── case-study-snapshot/
-│   └── ...
-│
-├── /knowledge/               # System memory
-│   ├── /content/             # Gold-standard examples
-│   ├── /templates/           # Reusable blocks (CTAs, proof, bios)
-│   ├── /drafts/              # Work-in-progress
-│   └── /notes/               # Raw ideas & research
-│
-└── /archive/                 # Versioned backups
+C:.
+|   CLAUDE.md
+|   README.md
+|   STRUCTURE.md
+|
++---archive
++---context
+|   \---core
+|           business-profile.json
+|           claims-policy.json
+|           icp.json
+|           voice-dna.json
+|
++---docs
+|       claims-policy-info.md
+|
++---knowledge
+|   +---content
+|   |   +---about-page
+|   |   |       about-page.md
+|   |   |
+|   |   +---blog-post
+|   |   |       blog-post.md
+|   |   |
+|   |   +---case-study-snapshot
+|   |   |       case-study-snapshot.md
+|   |   |
+|   |   +---cold-email
+|   |   |       cold-email.md
+|   |   |
+|   |   +---contact-page
+|   |   |       contact-page.md
+|   |   |
+|   |   +---faq
+|   |   |       faq.md
+|   |   |
+|   |   +---landing-page
+|   |   |       landing-page.md
+|   |   |
+|   |   +---linkedin-post
+|   |   |       linkedin-post.md
+|   |   |
+|   |   +---linkedin-profile
+|   |   |       linkedin-profile-ai-consultant.md
+|   |   |
+|   |   +---sales-deck
+|   |   |       sales-deck.md
+|   |   |
+|   |   \---website-hero
+|   |           website-hero.md
+|   |
+|   +---drafts
+|   +---notes
+|   \---templates
+|       +---bios
+|       |       bios.md
+|       |
+|       +---cta
+|       |       cta.md
+|       |
+|       +---objections
+|       |       objections.md
+|       |
+|       +---proof
+|       |       proof.md
+|       |
+|       \---snippets
+|               snippets.md
+|
++---prompts
+|       business-profile-creator.md
+|       icp-creator.md
+|       voice-dna-creator.md
+|
+\---skills
+    +---about-page
+    |       about-page.md
+    |
+    +---blog-post
+    |       blog-post.md
+    |
+    +---case-study
+    |       case-study.md
+    |
+    +---cold-email
+    |       cold-email.md
+    |
+    +---contact-page
+    |       contact-page.md
+    |
+    +---cta-block
+    |       cta-block.md
+    |
+    +---faq
+    |       faq.md
+    |
+    +---landing-page
+    |       landing-page.md
+    |
+    +---linkedin-post
+    |       linkedin-post.md
+    |
+    +---linkedin-profile
+    |       linkedin-profile.md
+    |
+    +---linkedin-text-message
+    |       linkedin-text-message.md
+    |
+    +---notebooklm
+    |       notebooklm.md
+    |
+    +---prof-block
+    |       prof-block.md
+    |
+    +---proposal-document
+    |       proposal-document.md
+    |
+    +---sales-deck
+    |       sales-deck.md
+    |
+    +---services-page
+    |       services-page.md
+    |
+    +---twitter
+    |       twitter.md
+    |
+    \---website-hero
+            website-hero.md
+
 
 ```
 

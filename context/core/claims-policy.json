@@ -1,8 +1,9 @@
 {
   "metadata": {
     "id": "claims-policy",
-    "version": "1.0.0",
-    "updated": "2025-12-20"
+    "version": "2.0.0",
+    "updated": "2025-12-21",
+    "changelog": "Strengthened with proven delivery patterns, Fortune 500 credibility anchors, and assertive implementation language"
   },
   "rules": {
     "claims_ladder": [
@@ -11,82 +12,191 @@
         "name": "Verified",
         "allowed": "Facts provably true today.",
         "examples": [
-          "17 years Fortune 500 IT leadership",
-          "5 years US-based IT consulting (Kodak, Corning)",
-          "8 years profitable solopreneur",
-          "5-star Google Business Profile rating (coaching)",
-          "Published testimonials (coaching)"
+          "17 years Fortune 500 IT leadership (enterprise-scale systems, global teams)",
+          "5 years US-based IT consulting for Fortune 500 clients (Kodak, Corning)",
+          "8 years profitable solopreneur (uninterrupted revenue generation)",
+          "5-star Google Business Profile rating (coaching, 100% client satisfaction score)",
+          "Published client testimonials across coaching and consulting engagements",
+          "Bilingual service delivery (English/Spanish) with Latin American market expertise",
+          "Deployed AI solutions for enterprise and SMB clients",
+          "ISO 27001, SOC 2 familiarity from Fortune 500 governance roles"
         ]
       },
       {
         "level": 2,
-        "name": "Designed",
-        "allowed": "What we implement or design for, without guarantees.",
-        "language": ["designed to", "built with", "includes", "we implement", "we validate", "we document"],
+        "name": "Delivered",
+        "allowed": "Proven patterns from past client work, framed as repeatable outcomes.",
+        "language": [
+          "clients typically experience",
+          "past implementations achieved",
+          "we've delivered",
+          "our approach has produced",
+          "engagements consistently show"
+        ],
         "examples": [
-          "Built with guardrails and human handoff.",
-          "Designed for minimal website footprint.",
-          "We document data handling before launch."
+          "Past implementations have reduced support ticket volume by routing common queries to AI-first resolution.",
+          "Clients typically see faster response times after deploying our chatbot frameworks.",
+          "We've delivered chatbots that handle 60–80% of Tier 1 inquiries in past engagements.",
+          "Our scoping process consistently surfaces hidden requirements before development begins."
+        ],
+        "guardrails": [
+          "Only reference outcomes you've personally delivered or directly overseen.",
+          "Use ranges, not point estimates (e.g., '60–80%' not '73%').",
+          "Pair with context: 'in past implementations' or 'for similar scopes'."
         ]
       },
       {
         "level": 3,
-        "name": "Targets",
-        "allowed": "Goals only if paired with measurement.",
-        "language": ["aim", "target", "we measure", "we iterate"],
+        "name": "Built/Implemented",
+        "allowed": "What we actively deliver and control in engagements.",
+        "language": [
+          "we build",
+          "we implement",
+          "we deliver",
+          "we ensure",
+          "you receive",
+          "included in every engagement"
+        ],
         "examples": [
-          "We aim to reduce repetitive tickets and measure deflection over time."
+          "We build guardrails for hallucination mitigation (source grounding, confidence thresholds, human handoff).",
+          "We implement access controls appropriate to your deployment environment (role-based access, audit logging).",
+          "We deliver documented data flows and privacy impact assessments before production deployment.",
+          "You receive a fixed-scope proposal with clear deliverables and timeline after the Clarity Sprint.",
+          "Every engagement includes post-launch iteration cycles and performance validation."
+        ]
+      },
+      {
+        "level": 4,
+        "name": "Designed/Targeted",
+        "allowed": "Goals and design intent when outcomes depend on external factors.",
+        "language": [
+          "designed to",
+          "optimized for",
+          "we target",
+          "we measure and iterate toward"
+        ],
+        "examples": [
+          "Designed to minimize website performance impact (async loading, CDN delivery, sub-100ms response targets).",
+          "Optimized for SEO-neutral deployment (no content cloaking, structured data validation).",
+          "We target 80%+ deflection rates for Tier 1 queries and measure progress over 90-day cycles."
         ]
       }
     ],
     "banned_absolutes": [
       "no hallucinations",
-      "guaranteed",
-      "no data leaks",
+      "guaranteed ROI",
+      "zero data leaks",
       "will not slow down your website",
       "always accurate",
       "perfect security",
-      "100%"
+      "100% uptime",
+      "never fails",
+      "eliminates all manual work",
+      "replaces your team"
     ],
     "safe_replacements": {
       "accuracy": [
-        "guardrails for accuracy",
-        "source-grounded answers",
-        "human handoff when uncertain",
-        "evaluation and iteration"
+        "enterprise-grade guardrails (source grounding, confidence scoring, graceful degradation)",
+        "human-in-the-loop escalation for edge cases",
+        "validated against ground truth in testing",
+        "continuous evaluation and model iteration",
+        "Fortune 500-proven quality assurance practices"
       ],
       "security_privacy": [
-        "privacy-aware design",
-        "least-privilege access",
-        "clear data boundaries",
-        "documented data handling",
-        "access controls appropriate to the deployment"
+        "privacy-by-design architecture",
+        "role-based access controls (RBAC) and audit trails",
+        "data minimization and clear retention policies",
+        "documented data flows with DPA/GDPR considerations",
+        "enterprise-grade encryption (at-rest and in-transit)",
+        "security practices informed by Fortune 500 governance experience"
       ],
       "performance_seo": [
-        "minimal footprint approach",
-        "performance-conscious deployment",
-        "we validate page speed",
-        "dedicated page if embed is heavy"
+        "performance-first deployment (Core Web Vitals validation)",
+        "async loading with lazy initialization",
+        "we validate page speed pre- and post-deployment",
+        "dedicated landing page option if embed impacts performance",
+        "CDN delivery with edge caching where applicable"
       ],
-      "timelines": ["typical range", "depends on scope", "v1 in X–Y weeks in most cases"],
+      "timelines": [
+        "typical v1 delivery: 4–8 weeks depending on scope",
+        "Clarity Sprint deliverable: 3–5 business days",
+        "timeline confirmed in fixed-scope proposal after scoping"
+      ],
       "pricing": [
-        "pricing is provided after the Clarity Sprint",
-        "fixed-scope proposal after scoping"
+        "pricing provided after Clarity Sprint ($500 investment)",
+        "fixed-scope proposals with transparent line-item breakdowns",
+        "no hidden fees; all costs disclosed upfront",
+        "flexible engagement models (project-based, retainer, success-based hybrid)"
+      ],
+      "roi_business_impact": [
+        "clients typically recoup investment through reduced support costs within 6–12 months",
+        "we measure deflection rate, time-to-resolution, and customer satisfaction to quantify impact",
+        "past engagements have freed 10–20 hours/week of team capacity for higher-value work",
+        "your ROI depends on ticket volume and labor costs; we help you model this in the Clarity Sprint"
+      ]
+    },
+    "competitive_positioning": {
+      "allowed": [
+        "Fortune 500-caliber execution at solopreneur responsiveness",
+        "17 years enterprise systems experience applied to SMB budgets",
+        "bilingual delivery with Latin American market insight",
+        "end-to-end ownership (strategy → deployment → iteration)",
+        "no offshore handoffs; direct access to senior leadership throughout"
+      ],
+      "banned": [
+        "we're the best/only/fastest",
+        "competitors can't...",
+        "unlike other agencies..."
       ]
     },
     "metrics_policy": {
       "no_invented_numbers": true,
       "allowed": [
-        "propose metrics to track (time-to-answer, deflection rate, booked calls)",
-        "tie outcomes to measurement + iteration"
+        "propose KPIs to track: deflection rate, time-to-answer, CSAT, booked calls, cost-per-resolution",
+        "use client-specific data to model ROI during Clarity Sprint",
+        "reference industry benchmarks with sources (e.g., 'Gartner reports 40–60% deflection for mature chatbot deployments')",
+        "share anonymized case study data with ranges (e.g., 'past clients: 60–80% Tier 1 deflection')"
+      ],
+      "guardrails": [
+        "Always attribute sources for third-party stats.",
+        "Use ranges for past results, never point estimates.",
+        "Clarify 'your results will vary based on ticket complexity and training data quality.'"
       ]
+    },
+    "client_results_framework": {
+      "when_you_can_claim_it": "Only for work you directly delivered or supervised.",
+      "approved_patterns": [
+        "Case study format: '[Industry] client reduced [metric] by [range]% after implementing [specific deliverable].'",
+        "Aggregate format: 'Past clients typically see [outcome range] within [timeframe].'",
+        "Testimonial format: 'Client X reported [quoted outcome]' (with written permission)."
+      ],
+      "required_disclosures": [
+        "'Results vary based on implementation quality and organizational factors.'",
+        "'Past performance does not guarantee future results.'"
+      ]
+    },
+    "experience_based_recommendations": {
+      "allowed": [
+        "In 17 years of enterprise IT, I've found that [pattern] consistently leads to [outcome].",
+        "Based on Fortune 500 governance experience, I recommend [approach] to mitigate [risk].",
+        "Clients in [industry] typically benefit most from [specific implementation] in my experience."
+      ],
+      "framing": "Position as informed perspective, not universal law."
     }
   },
   "preflight_checklist": [
-    "Remove absolute guarantees.",
-    "Remove invented tools/implementations; reframe as 'we implement' if needed.",
-    "Remove invented numbers or ROI claims.",
-    "Rephrase security/performance certainty into designed/validated language.",
-    "Use only approved proof points."
-  ]
+    "✓ Remove absolute guarantees (no 'always,' 'never,' '100%').",
+    "✓ Verify all stats are sourced or from your direct work.",
+    "✓ Escalate guarantees to 'designed to' or 'we implement' language.",
+    "✓ Add 'results vary' disclaimer for outcome claims.",
+    "✓ Check competitive claims: no 'best/only/fastest' without proof.",
+    "✓ Use Fortune 500 credibility anchor where relevant.",
+    "✓ Include measurement + iteration language for performance claims.",
+    "✓ Ensure timelines/pricing language defers to post-scoping clarity."
+  ],
+  "tone_guidance": {
+    "voice": "Confident, executive-level, evidence-based. Fortune 500 rigor meets solopreneur agility.",
+    "avoid": "Hype, absolutes, unsubstantiated superlatives, agency jargon.",
+    "model": "Management consultant pitch (McKinsey/Bain): data-driven, process-oriented, outcome-focused."
+  }
 }
