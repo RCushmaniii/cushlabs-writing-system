@@ -17,6 +17,7 @@
   --color-accent-hover: #1d4ed8;
   --color-code-bg: #f5f5f5;
   --color-nav-bg: #f7f7f7;
+  --color-brand-orange: #ff6a3d;
   --color-trust-canonical: #059669;
   --color-trust-reference: #2563eb;
   --color-trust-draft: #d97706;
@@ -126,7 +127,7 @@ hr {
 /* ===== Navigation ===== */
 .top-nav {
   background-color: var(--color-nav-bg);
-  border-bottom: 1px solid var(--color-border);
+  border-bottom: 3px solid var(--color-brand-orange);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -147,6 +148,19 @@ hr {
   font-weight: 600;
   font-size: 1.125rem;
   color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-brand::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-brand-orange);
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .nav-brand:hover {
@@ -450,11 +464,16 @@ tr:hover {
 }
 
 @media (max-width: 480px) {
+  .top-nav {
+    height: auto;
+    min-height: calc(var(--nav-height) + 1.25rem);
+  }
+
   .top-nav-inner {
     flex-direction: column;
     height: auto;
     gap: var(--space-sm);
-    padding: var(--space-sm) var(--space-md);
+    padding: var(--space-md);
   }
 
   .nav-links {
