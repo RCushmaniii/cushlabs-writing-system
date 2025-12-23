@@ -1,61 +1,32 @@
 # Context Engineering Kit
 
-**A production-grade operating system for AI-assisted writing**
-Built to enforce voice, audience, business truth, and claims discipline — at scale.
+**Clone your voice. Crush content. Scale forever.**
 
-Live System Explorer:
-👉 [CushLabs.ai Writing System](https://cushlabs-writing-system.vercel.app/)
+**No drift. No hallucinations. Just _you_—at 10x speed.**
 
----
+[Live Explorer →](https://cushlabs-writing-system.vercel.app/)
 
-## What This Is
-
-The Context Engineering Kit is **not a prompt library**.
-
-It is a **governed writing system** that separates:
-
-- **Truth** (what is real)
-- **Structure** (how content is shaped)
-- **Examples** (what “good” looks like)
-
-So AI output stays:
-
-- accurate
-- on-brand
-- audience-aware
-- consistent over time
+![Writing System Explorer](.github/images/screenshot.jpeg)
 
 ---
 
-## Why This Exists
+## The Problem It Solves
 
-Most AI writing systems fail because they:
+AI drafts start fire, end generic. You edit for hours: killing hype, restoring edge, fact-checking ghosts.
 
-- drift stylistically
-- hallucinate offers or metrics
-- ignore positioning
-- overwrite what already worked
-- treat prompts as magic instead of inputs
-
-This kit solves that by making **context explicit, versioned, and enforceable**.
+**This ends that.** Load truth once. Generate flawless assets forever.
 
 ---
 
-## Writing System Explorer (New)
+## What Makes It Magic
 
-The system now includes a **read-only web UI** that renders the repository itself.
+**Truth files** lock your reality. **Skills** nail every format. **Knowledge** compounds wins.
 
-The Explorer makes the system:
+```
+Truth → Skills → Knowledge → Repeatable domination
+```
 
-- human-legible
-- AI-debuggable
-- auditable
-- easier to maintain
-
-**No build step. No framework lock-in. No content mutation.**
-
-Live Explorer:
-👉 [https://vercel.com/rcushmaniii-projects/cushlabs-writing-system](https://vercel.com/rcushmaniii-projects/cushlabs-writing-system)
+**Explorer UI** (new): Branded dashboard of your entire system. Static. Vercel-ready. Zero build.
 
 ---
 
@@ -127,6 +98,66 @@ The repository remains the **single source of truth**.
 
 ---
 
+## Core Weapons
+
+### `/context/core/` – Your Unbreakable Foundation
+
+- **Voice DNA**: Tone, phrasing, edge. No "AI slop."
+- **ICP**: Real pains/objections. True resonance.
+- **Business**: Offers/pricing. No invented features.
+- **Claims**: Guardrails. Credibility enforced.
+
+### `/skills/` – Format Mastery
+
+One file per weapon:
+
+- Landing pages ✓
+- Cold emails ✓
+- Sales decks ✓
+- LinkedIn ✓
+- Proposals ✓
+
+Structure + QA baked in.
+
+### `/knowledge/` – Gets Smarter
+
+Your best work → fuel for next. Compounds instead of drifts.
+
+---
+
+## Drop & Dominate (2 Min Setup)
+
+1. `git clone`
+2. Run 3 creators → core JSON files
+3. Point Claude/Cursor to `CLAUDE.md`
+4. "Write my landing page" → _Done_
+
+**Works everywhere:** Claude Projects, Cursor, ChatGPT files, local LLMs.
+
+---
+
+## Operators Only
+
+For consultants, technical founders, productized services. Scale _your_ voice across touchpoints.
+
+**Not for:** 50-client agencies or prompt tinkerers.
+
+---
+
+## Why It Wins
+
+| Prompts               | This Kit            |
+| --------------------- | ------------------- |
+| Repeat every time     | Load once           |
+| Drifts + hallucinates | Enforced + truthful |
+| 47 chat tabs          | One system prompt   |
+| Manual QA             | Baked-in guardrails |
+| Stagnant              | Compounds           |
+
+**Philosophy:** Systems > inspiration. Truth > cleverness.
+
+---
+
 ## Repository Structure (Canonical)
 
 ```text
@@ -178,5 +209,11 @@ Truth beats cleverness.
 Systems beat inspiration.
 
 This kit is for people who want **repeatable clarity**, not AI theater.
+
+---
+
+**MIT. Fork it. Weaponize it.**
+
+[Live Demo](https://cushlabs-writing-system.vercel.app/) | [GitHub](https://github.com/RCushmaniii/cushlabs-writing-system)
 
 ---
